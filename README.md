@@ -50,18 +50,18 @@ Install Required Dependencies
 pip install -r requirements.txt
 ```
 
-Run dataset_downloader.py To Download The Dataset To Your Local Machine In The Current Folder Inside dataset Folder.
+Then You Can Run The Face Mask Detector Using The Following Command
+```
+python main.py
+```
+
+<h2>To Train Your Own Model Run dataset_downloader.py To Download The Dataset To Your Local Machine In The Current Folder Inside dataset Folder.
 
 ```
 python dataset_downloader.py
 ```
 
-Once You Downloaded The Dataset You Can Start Training The Model Locally Using Google Colab Notebook From The notebook Folder To Train Your Own Model Or You Can Use The Pre-Trained Model From The models Folder.
-
-Then You Can Run The Face Mask Detector Using The Following Command
-```
-python main.py
-```
+Or You Can Train Your Own Model Using Google Colab Notebook From The notebook Folder.</h2>.
 </p>
 
 <h2>Social Media Pages</h2>
