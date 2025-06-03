@@ -62,7 +62,7 @@ To Train Your Own Model Run dataset_downloader.py To Download The Dataset To You
 python dataset_downloader.py
 ```
 
-Or You Can Train Your Own Model Using Google Colab Notebook From The notebook Folder.</h2>.
+Or You Can Train Your Own Model Using Google Colab Notebook From The notebook Folder.</h2>
 </p>
 
 <h2>Social Media Pages</h2>
