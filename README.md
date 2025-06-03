@@ -55,7 +55,8 @@ Then You Can Run The Face Mask Detector Using The This Command
 python main.py
 ```
 
-<h2>To Train Your Own Model Run dataset_downloader.py To Download The Dataset To Your Local Machine In The Current Folder Inside dataset Folder.
+<h2>Training</h2>
+To Train Your Own Model Run dataset_downloader.py To Download The Dataset To Your Local Machine In The Current Folder Inside dataset Folder.
 
 ```
 python dataset_downloader.py
