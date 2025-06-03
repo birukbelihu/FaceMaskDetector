@@ -56,7 +56,7 @@ Run dataset_downloader.py To Download The Dataset To Your Local Machine In The C
 python dataset_downloader.py
 ```
 
-Once You Downloaded The Dataset You Can Start Training The Model Locally Or Run The Google Colab Notebook From The notebook Folder To Train Your Own Model Or You Can Use The Pre-Trained Model From The models Folder.
+Once You Downloaded The Dataset You Can Start Training The Model Locally Using Google Colab Notebook From The notebook Folder To Train Your Own Model Or You Can Use The Pre-Trained Model From The models Folder.
 
 Then You Can Run The Face Mask Detector Using The Following Command
 ```
