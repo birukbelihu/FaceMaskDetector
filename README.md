@@ -50,7 +50,7 @@ Install Required Dependencies
 pip install -r requirements.txt
 ```
 
-Then You Can Run Face Mask Detector Using The This Command
+Then You Can Run Face Mask Detector Using This Command
 ```
 python main.py
 ```
