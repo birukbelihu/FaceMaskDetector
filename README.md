@@ -11,9 +11,7 @@
 
 <h2>Face Mask Detector</h2>
 
-<p>A Simple COVID19 Face Mask Detection From Live Camera Using Computer Vision & Machine Learning.</p>
-
-
+<p>A Simple COVID19 Face Mask Detector From Live Camera Using Computer Vision & Machine Learning.</p>
 
 <h2>Running</h2>
 
