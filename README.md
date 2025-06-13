@@ -1,23 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-</head>
-<body>
-
 ![GitHub Repo stars](https://img.shields.io/github/stars/BirukBelihu/FaceMaskDetector)
 ![GitHub forks](https://img.shields.io/github/forks/BirukBelihu/FaceMaskDetector)
 ![GitHub issues](https://img.shields.io/github/issues/BirukBelihu/FaceMaskDetector)
 ![GitHub license](https://img.shields.io/github/license/BirukBelihu/FaceMaskDetector)
 
-<h2>Face Mask Detector</h2>
+# Face Mask Detector
 
-<p>A Simple COVID19 Face Mask Detector In A Live Camera Using Computer Vision & Machine Learning.</p>
+A Simple COVID19 Face Mask Detector In A Live Camera Using Computer Vision & Machine Learning.
 
-<h2>Running</h2>
+# Running
 
 To Get Started With Face Mask Detector On Your Local Machine Follow This Simple Steps One By One To Get Up & Running.
 
-Make Sure You Have <b><a href="https://git-scm.com/" target="_blank">Git</a></b> & <b><a href="https://python.org" target="_blank">Python</a></b> Installed On Your Machine.
+Make Sure You Have [Git](https://git-scm.com/) & [Python](https://python.org) Installed On Your Machine.
 
 ```
 git --version
@@ -27,7 +21,7 @@ git --version
 python --version
 ```
 
-<b>Reminder:- </b>
+# Reminder
 Make Sure You're Using <b>Python Version 3.9-3.12</b>.
 
 Clone The Repository
@@ -53,26 +47,15 @@ Run Face Mask Detector
 python main.py
 ```
 
-<h2>Training</h2>
-To Train Your Own Model Run dataset_downloader.py To Download The Dataset To Your Local Machine In The Current Folder Inside dataset Folder.
+# Training
+To Train Your Own Model Run ```dataset_downloader.py``` To Download The Dataset To Your Local Machine In The Current Directory Inside dataset Folder.
 
 ```
 python dataset_downloader.py
 ```
-</p>
 
-<h2>Social Media Pages</h2>
-
-If You Want Python Tutorials Check My Social Media Pages.
-
-<b>Telegram</b> :- 
-https://t.me/pythondevstutorials
-
-<b>YouTube</b> :- 
-https://youtube.com/@pythondevs?si=_CZxaEBwDkQEj4je
+Or You Can Train Your Own Model Using Google Colab Notebook From The notebook Folder.</h2>
 
 ## License
 
 This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for more details.
- </body>
- </html>
