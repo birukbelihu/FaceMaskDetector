@@ -11,10 +11,10 @@ from constants import *
 previous_frame_time = 0
 fps_history = deque(maxlen=10)
 
-net = cv2.dnn.readNetFromCaffe(prototxt_file(), caffe_model())
-face_mask_model = load_model(face_mask_detector_model())
+net = cv2.dnn.readNetFromCaffe(get_prototext_file(), get_caffe_model())
+face_mask_model = load_model(get_face_mask_detector_model())
 
-videocapture = cv2.VideoCapture(0)
+videocapture = cv2.VideoCapture(1)
 
 while videocapture.isOpened():
     is_successful, frame = videocapture.read()
@@ -53,18 +53,18 @@ while videocapture.isOpened():
                 face_array = np.expand_dims(face_array, axis=0)
 
                 prediction = face_mask_model.predict(face_array, verbose=0)
-                labels = face_mask_model_classes()[numpy.argmax(prediction[0])]
+                labels = get_face_mask_model_classes()[numpy.argmax(prediction[0])]
                 label_color = (0, 255, 0) if labels == "With Mask" else (0, 0, 255)
 
                 cv2.rectangle(frame, (x1, y1), (x2, y2), label_color, 2)
                 cv2.putText(frame, labels, (x1, y1 - 10), cv2.QT_FONT_NORMAL,
                             0.7, label_color, 2)
 
-    cv2.imshow("Face Mask Detector", frame)
+    cv2.imshow(get_app_name(), frame)
 
     key = cv2.waitKey(1) & 0xFF
     if chr(key) in exit_keys():
-        print("Exiting Face Mask Detector...")
+        print(f"Exiting {get_app_name()}...")
         break
 
 videocapture.release()

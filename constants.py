@@ -1,16 +1,19 @@
-def prototxt_file() -> str:
+def get_app_name() -> str:
+    return "Face Mask Detector"
+
+def get_prototext_file() -> str:
     return "models/deploy.prototxt"
 
 
-def caffe_model() -> str:
+def get_caffe_model() -> str:
     return "models/face_detector.caffemodel"
 
 
-def face_mask_detector_model() -> str:
+def get_face_mask_detector_model() -> str:
     return "models/face_mask_detector.h5"
 
 
-def face_mask_model_classes() -> list[str]:
+def get_face_mask_model_classes() -> list[str]:
     return ["With Mask", "Without Mask"]
 
 
