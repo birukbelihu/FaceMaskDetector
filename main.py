@@ -54,7 +54,7 @@ while videocapture.isOpened():
 
                 prediction = face_mask_model.predict(face_array, verbose=0)
                 labels = get_face_mask_model_classes()[numpy.argmax(prediction[0])]
-                label_color = (0, 255, 0) if labels == "With Mask" else (0, 0, 255)
+                label_color = (0, 255, 0) if labels == get_face_mask_model_classes()[0] else (0, 0, 255)
 
                 cv2.rectangle(frame, (x1, y1), (x2, y2), label_color, 2)
                 cv2.putText(frame, labels, (x1, y1 - 10), cv2.QT_FONT_NORMAL,
