@@ -53,11 +53,14 @@ while videocapture.isOpened():
                 face_array = np.expand_dims(face_array, axis=0)
 
                 prediction = face_mask_model.predict(face_array, verbose=0)
-                labels = get_face_mask_model_classes()[numpy.argmax(prediction[0])]
-                label_color = (0, 255, 0) if labels == get_face_mask_model_classes()[0] else (0, 0, 255)
+                prediction_index = numpy.argmax(prediction[0])
+                confidence = prediction[0][prediction_index]
+                label = get_face_mask_model_classes()[numpy.argmax(prediction[0])]
+                label_color = (0, 255, 0) if label == get_face_mask_model_classes()[0] else (0, 0, 255)
+                label_text = f"{label}: ({confidence * 100:.1f}%)"
 
                 cv2.rectangle(frame, (x1, y1), (x2, y2), label_color, 2)
-                cv2.putText(frame, labels, (x1, y1 - 10), cv2.QT_FONT_NORMAL,
+                cv2.putText(frame, label_text, (x1, y1 - 10), cv2.QT_FONT_NORMAL,
                             0.7, label_color, 2)
 
     cv2.imshow(get_app_name(), frame)

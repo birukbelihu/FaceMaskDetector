@@ -48,13 +48,19 @@ python main.py
 ```
 
 # Training
-To Train Your Own Model Run ```dataset_downloader.py``` To Download The Dataset To Your Local Machine In The Current Directory Inside dataset Folder.
+To Train Your Own Model Run ```dataset_downloader.py```. It Will Download The Training Dataset To Your Local Machine In The Current Directory Inside dataset Folder.
 
 ```
 python dataset_downloader.py
 ```
 
-Or You Can Train Your Own Model Using Google Colab Notebook From The notebook Folder.</h2>
+Once The Dataset Is Downloaded You Can Train The Model Locally By Running ```python model_trainer.py```.
+
+```bash
+python model_trainer.py
+```
+
+Or You Can Train The Model Using The Provided Jupyter Notebook In The notebook Folder.
 
 ## License
 
