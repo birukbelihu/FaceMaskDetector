@@ -5,7 +5,7 @@
 
 # Face Mask Detector
 
-A Simple COVID19 Face Mask Detector In A Live Camera Using Computer Vision & Machine Learning.
+A Simple COVID19 Face Mask Detector In A Live Camera Using Computer Vision & Deep Learning.
 
 # Running
 
@@ -22,7 +22,7 @@ python --version
 ```
 
 # Reminder
-Make Sure You're Using <b>Python Version 3.9-3.12</b>.
+Make Sure You're Using **Python Version 3.9-3.12**.
 
 Clone The Repository
 
