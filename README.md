@@ -48,7 +48,7 @@ python main.py
 ```
 
 # Training
-To Train Your Own Model Run ```dataset_downloader.py```. It Will Download The Training Dataset To Your Local Machine In The Current Directory Inside dataset Folder.
+To Train Your Own Model Locally Run ```dataset_downloader.py```. It Will Download The Training Dataset To Your Local Machine In The Current Directory Inside dataset Folder.
 
 ```
 python dataset_downloader.py
